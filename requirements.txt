@@ -1,2 +1,1 @@
-greenlet==1.1.2
-SQLAlchemy==1.4.40
+aenum==3.1.11
