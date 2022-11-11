@@ -1,7 +1,7 @@
-from aenum import Enum
+from aenum import IntEnum
 
 
-class OpenAPIEnum(Enum):
+class OpenAPIEnum(IntEnum):
     @classmethod
     def __modify_schema__(cls, field_schema: dict):
         if 'enum' in field_schema:
